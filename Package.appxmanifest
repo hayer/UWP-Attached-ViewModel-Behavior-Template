@@ -7,14 +7,12 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="a699a002-19a3-42c3-abfa-e71f8ad7d535"
-    Publisher="CN=EspenRøvik"
+    Name="UWPAttachedViewModelBehaviorTemplate"
+    Publisher="CN=PlaceHolder"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a699a002-19a3-42c3-abfa-e71f8ad7d535" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-
   <Properties>
-    <DisplayName>UWP Attached ViewModel Behavior Template</DisplayName>
+    <DisplayName>UWPAttachedViewModelBehaviorTemplate</DisplayName>
     <PublisherDisplayName>EspenRøvik</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +28,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="UWP_Attached_ViewModel_Behavior_Template.App">
+      EntryPoint="UWPAttachedViewModelBehaviorTemplate.App">
       <uap:VisualElements
-        DisplayName="UWP Attached ViewModel Behavior Template"
+        DisplayName="UWPAttachedViewModelBehaviorTemplate"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="UWP Attached ViewModel Behavior Template"
+        Description="Please enter a description"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

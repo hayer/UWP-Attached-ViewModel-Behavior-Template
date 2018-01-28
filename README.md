@@ -1,3 +1,11 @@
+# TODO
+These are things that should be changed manually as its easier than providing them through the commandline.
+ * Package.appxmanifest
+   * ```Identitiy```->```Publisher```
+   * ```Idenitity```->```Name```
+   * ```Applications```->```Application```->```uap:VisualElements```->```DisplayName```
+   * ```Applications```->```Application```->```uap:VisualElements```->```Description```
+
 # UWP Attached ViewModel Behavior Template
 
 Based on the ideas of Sacha Barber: [Attached VM Behaviours](http://www.codeproject.com/Articles/885009/Attached-VM-Behaviours#Disposable-ViewModels-/-Child-Container-Lifecycle-Management)
